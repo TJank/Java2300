@@ -29,10 +29,18 @@ public class Main {
         dollarAmount = Float.parseFloat(input);
         euroAmount = dollarAmount / EXCHANGE_RATE_EURO;
 
-        // Output
-        System.out.println("Your " + dollarPatter.format(dollarAmount) + " US dollars will " +
-                "come out to " + dollarPatter.format(euroAmount) + " Euros.");
+        // Find the difference between the dollar amount and the euro.
+        float difference = Math.abs(euroAmount - dollarAmount);
 
+        // Output
+        //System.out.println("Your " + dollarPatter.format(dollarAmount) + " US dollars will " +
+        //        "come out to " + dollarPatter.format(euroAmount) + " Euros.");
+
+        System.out.printf("Your %.2f US dollars will come out to %.2f Euros",
+                dollarAmount,euroAmount);
+
+        System.out.println("The difference between euros and dollars is: "
+                + dollarPatter.format(difference));
 
     }
 }
