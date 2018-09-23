@@ -21,41 +21,51 @@ public class Main {
 	    String score;
 	    int length = 30;
 	    int inputLength = 0;
+	    String yesOrNo = "";
         Scanner scanner = new Scanner(System.in);
 
-        // init values to be tested
-        System.out.println("Please enter player name : ");
-        playerName = scanner.nextLine();
+        // Testing if user wants to enter scores
+        System.out.println("Would you like to enter the scores?");
+        yesOrNo = scanner.nextLine();
 
-        // while loop
-        while (! playerName.equals("-1")) {
-            System.out.println("Enter player's score : ");
-            score = scanner.next();
+        if (yesOrNo.toLowerCase().equals("yes")) {
 
-            // used for configuring output format
-            length = 30;
-            inputLength = playerName.length() + score.length();
-            length -= inputLength;
-
-            // Debugging
-            // System.out.println(length);
-            // System.out.println(inputLength);
-
-            // formatting output
-            System.out.print(playerName);
-            for (int i = 0; i <= length; i++ ) {
-                System.out.print(".");
-            }
-
-            System.out.print(score);
-
-            System.out.println();
-            System.out.println();
-
-            // Test for next player or -1 to end
+            // init values to be tested
             System.out.println("Please enter player name : ");
-            playerName = scanner.next();
+            playerName = scanner.nextLine();
 
+            // while loop
+            while (!playerName.equals("-1")) {
+                System.out.println("Enter player's score : ");
+                score = scanner.next();
+
+                // used for configuring output format
+                length = 30;
+                inputLength = playerName.length() + score.length();
+                length -= inputLength;
+
+                // Debugging
+                // System.out.println(length);
+                // System.out.println(inputLength);
+
+                // formatting output
+                System.out.print(playerName);
+                for (int i = 0; i <= length; i++) {
+                    System.out.print(".");
+                }
+
+                System.out.print(score);
+
+                System.out.println();
+                System.out.println();
+
+                // Test for next player or -1 to end
+                System.out.println("Please enter player name : ");
+                playerName = scanner.next();
+
+            }
+        } else if (yesOrNo.toLowerCase().equals("no")) {
+            System.out.println("ending program...");
         }
     }
 }
