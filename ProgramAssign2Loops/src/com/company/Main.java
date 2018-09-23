@@ -15,21 +15,24 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
+        // init variables
 	    String playerName;
 	    String score;
 	    int length = 30;
 	    int inputLength = 0;
-	    final String SENTINEL = "-1";
-
         Scanner scanner = new Scanner(System.in);
 
+        // init values to be tested
         System.out.println("Please enter player name : ");
         playerName = scanner.nextLine();
 
+        // while loop
         while (! playerName.equals("-1")) {
             System.out.println("Enter player's score : ");
             score = scanner.next();
 
+            // used for configuring output format
             length = 30;
             inputLength = playerName.length() + score.length();
             length -= inputLength;
@@ -38,6 +41,7 @@ public class Main {
             // System.out.println(length);
             // System.out.println(inputLength);
 
+            // formatting output
             System.out.print(playerName);
             for (int i = 0; i <= length; i++ ) {
                 System.out.print(".");
@@ -48,6 +52,7 @@ public class Main {
             System.out.println();
             System.out.println();
 
+            // Test for next player or -1 to end
             System.out.println("Please enter player name : ");
             playerName = scanner.next();
 
