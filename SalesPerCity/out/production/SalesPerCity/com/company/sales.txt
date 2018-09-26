@@ -1,0 +1,7 @@
+San Francisco:19887.32
+
+New York:298734.12
+
+Minneapolis:12887.01
+
+Chicago:408734.10
