@@ -72,7 +72,7 @@ public class PracticeMethods
 
       if(guessedInt != randomNum) {
           System.out.println("You were " + (Math.abs(guessedInt-randomNum)) +
-                  " numbers away!");
+                  " numbers away! The secret number was : " + randomNum);
       } else System.out.println("You are a genius!");
 
 
