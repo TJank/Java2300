@@ -20,10 +20,19 @@ public class RandomMerchant {
         this.inventory = new String[]{"Sword", "Axe", "Spear", "Chicken legs", "Veggie mix", "Health Potion", "Invisibility Potion"};
     }
 
+    /**
+     *
+     * @param storeName - string passed as the store / merchant's name
+     * @param storeMoney - int passed resembling the total money the store has
+     * @param inventory - array passed of items acting as the store's inventory
+     */
     public RandomMerchant(String storeName, int storeMoney, String[] inventory) {
         this.storeName = storeName;
         this.storeMoney = storeMoney;
-        this.inventory = inventory;
+        this.inventory = new String[inventory.length];
+        for(int i=0; i<inventory.length; i++) {
+            this.inventory[i] = inventory[i];
+        }
     }
 
     // SERVICE METHOD 1
@@ -78,6 +87,7 @@ public class RandomMerchant {
     }
 
     @Override
+    // override the toString method
     public String toString() {
         return "RandomMerchant{" +
                 "storeName='" + storeName + '\'' +
@@ -108,13 +118,13 @@ public class RandomMerchant {
         }
     }
 
-    // @return returns the inventory of the store / merchant
+    // @return returns the inventory of the store / merchant as a single string
     public String getInventory() {
-        String retrunStr = "";
+        String returnStr = "";
         for(int i =0; i<this.inventory.length; i++) {
-            retrunStr = retrunStr + " " + this.inventory[i];
+            returnStr = returnStr + " " + this.inventory[i];
         }
-        return retrunStr;
+        return returnStr;
         // return Arrays.toString(this.inventory);
     }
 

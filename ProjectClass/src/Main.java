@@ -12,20 +12,17 @@ public class Main {
 
         String[] goods = {"Axe","Sword","Boots","Gauntlets","Shield","Spear"};
         // Creating a new object of my RandomMerchant.java class using the constructor
-        RandomMerchant armory = new RandomMerchant(
-                "Armory",
-                10000,
-                goods);
+        RandomMerchant armory = new RandomMerchant("Armory", 10000, goods);
         // getting a view of the armory's inventory
         System.out.println(armory.getInventory());
         // using service method 1 to buy an item from the store
         armory.buyFromMerchant("Axe", 200);
         // using service method 2 to buy an item from the store, however
-        // this sore doesnt have sufficient funds
+        // this sore doesn't have sufficient funds
         armory.sellToMerchant("Magical Sword", 15000);
         // using setter with check for bad data
         armory.setStoreMoney(-30000);
-        // showing resutls
+        // showing results
         System.out.println(armory.getStoreMoney());
         // using setter to set new amount to merchant's total money
         armory.setStoreMoney(20000);
