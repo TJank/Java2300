@@ -20,6 +20,7 @@ public class Train {
      *                  mutator method to set the passengers array list
      */
     public Train(ArrayList<Passenger> arrayList) {
+        this.passengers = new ArrayList<Passenger>();
         addPassengers(arrayList);
     }
 
@@ -28,7 +29,7 @@ public class Train {
      * @param arrayList - passed form constructor used to build the this.passenger array list
      */
     private void addPassengers(ArrayList<Passenger> arrayList) {
-        this.passengers = arrayList;
+        this.passengers.addAll(arrayList);
 //        String name;
 //        String status;
 //        for(Passenger currentPass : arrayList) {
