@@ -24,7 +24,7 @@ public class Client {
             n = file.next();
             c = file.nextInt();
 
-            tempPassengers.add(new Passenger(n,c));
+            tempPassengers.add(new Passe nger(n,c));
         }
 
         // declare and initialize an object of the Train class that accepts the passenger list
