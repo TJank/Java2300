@@ -29,18 +29,10 @@ public class Train {
      * @param arrayList - passed form constructor used to build the this.passenger array list
      */
     private void addPassengers(ArrayList<Passenger> arrayList) {
-        this.passengers.addAll(arrayList);
-//        String name;
-//        String status;
-//        for(Passenger currentPass : arrayList) {
-//            name = currentPass.getName();
-//            status = currentPass.getClassStatus();
-//            // System.out.println("INSIDE ADDPASSENGERS MUTATOR \n" +
-//                    // "NAME = " + name + " STATUS = " + status);
-//            Passenger newPass = new Passenger(name, status);
-//            // System.out.println(newPass.toString());
-//            this.passengers.add(newPass);
-//        }
+        for(Passenger curPas : arrayList) {
+            this.passengers.add(curPas);
+        }
+        // this.passengers.addAll(arrayList);
     }
 
     @Override
@@ -63,10 +55,10 @@ public class Train {
      */
     public String passengersInFirstClass() {
         double firstClass = 0;
-        int numOfPassengers = 0;
+        int numOfPassengers = this.passengers.size();
         for(Passenger currentPassenger : this.passengers) {
             int currentPassStatus = currentPassenger.getClassStatus();
-            numOfPassengers++;
+            //numOfPassengers++;
             if (currentPassStatus == 1) {
                 firstClass++;
             }

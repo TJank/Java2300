@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8d7246ac-ee43-4ebb-b773-bc025f0d60a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingAssignment4/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingAssignment4/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProgrammingAssignment4/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingAssignment4/Train.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passengers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/passengers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temperatures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Temperatures/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +22,9 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -36,13 +41,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1510" />
+          <entry key="java" value="1515" />
           <entry key="txt" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1510" />
+          <entry key="JAVA" value="1515" />
           <entry key="PLAIN_TEXT" value="63" />
         </counts>
       </usages-collector>
@@ -83,43 +88,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Passenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="56" column="95" selection-start-line="56" selection-start-column="95" selection-end-line="56" selection-end-column="95" />
+            <state relative-caret-position="375">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Train.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+              <folding>
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Train.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="-39">
+              <caret line="10" column="25" selection-start-line="7" selection-start-column="7" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passengers.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -141,8 +136,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/passengers.txt" />
         <option value="$PROJECT_DIR$/src/Passenger.java" />
-        <option value="$PROJECT_DIR$/src/Client.java" />
         <option value="$PROJECT_DIR$/src/Train.java" />
+        <option value="$PROJECT_DIR$/src/Client.java" />
       </list>
     </option>
   </component>
@@ -153,9 +148,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1053" />
+    <option name="x" value="735" />
+    <option name="y" value="23" />
+    <option name="width" value="945" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -165,6 +161,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,9 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,6 +195,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\Users\Tyler Jankowski\IdeaProjects\Java2300\ProgrammingAssignment4" />
     </key>
   </component>
@@ -243,17 +239,18 @@
       <workItem from="1540226099975" duration="1974000" />
       <workItem from="1540246781758" duration="108000" />
       <workItem from="1540247483747" duration="637000" />
+      <workItem from="1540404715317" duration="1497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7008000" />
+    <option name="totallyTimeSpent" value="8505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1053" extended-state="0" />
+    <frame x="735" y="23" width="945" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22702104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,7 +259,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32752994" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32748538" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -290,52 +287,33 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="638" selection-start-line="638" selection-end-line="638" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/util/Scanner.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/FileInputStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/passengers.txt" />
     <entry file="file://$PROJECT_DIR$/src/Passenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="56" column="95" selection-start-line="56" selection-start-column="95" selection-end-line="56" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/passengers.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Train.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        <state relative-caret-position="355">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="10" column="25" selection-start-line="7" selection-start-column="7" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
