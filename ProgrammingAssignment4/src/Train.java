@@ -63,10 +63,10 @@ public class Train {
      */
     public String passengersInFirstClass() {
         double firstClass = 0;
-        int numOfPassengers = 0;
+        int numOfPassengers = this.passengers.size();
         for(Passenger currentPassenger : this.passengers) {
             int currentPassStatus = currentPassenger.getClassStatus();
-            numOfPassengers++;
+            // numOfPassengers++;
             if (currentPassStatus == 1) {
                 firstClass++;
             }

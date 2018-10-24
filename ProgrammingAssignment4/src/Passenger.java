@@ -60,4 +60,5 @@ public class Passenger {
         return "name= '" + name + '\'' + "\t" +
                 "classStatus= " + classStatus;
     }
+
 }
