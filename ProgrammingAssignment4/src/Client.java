@@ -24,17 +24,17 @@ public class Client {
             n = file.next();
             c = file.nextInt();
 
-            tempPassengers.add(new Passe nger(n,c));
+            tempPassengers.add(new Passenger(n,c));
         }
 
         // declare and initialize an object of the Train class that accepts the passenger list
         Train train1 = new Train(tempPassengers);
 
         // In Client.java print the list of all passengers using the toString() method of your Train object.
-        System.out.println(train1.toString());
+        System.out.println("The passengers aboard train 1 are : \n" + train1.toString());
 
         //print the percentage of the passengers traveling in the first class. For this step, use the method from the Train class
-        System.out.println(train1.passengersInFirstClass());
+        System.out.println("The percent of 1st class passengers is : " + train1.passengersInFirstClass());
 
 
 

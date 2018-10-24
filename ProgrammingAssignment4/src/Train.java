@@ -3,7 +3,7 @@
  * DATE : 10-22-18
  * DESCRIPTION : TRAIN class to be used in the client class
  * Uses passenger class to build a list of passengers and do things with the passenger
- * data types
+ * class
  */
 
 import java.util.ArrayList;
@@ -20,7 +20,6 @@ public class Train {
      *                  mutator method to set the passengers array list
      */
     public Train(ArrayList<Passenger> arrayList) {
-        this.passengers = new ArrayList<Passenger>();
         addPassengers(arrayList);
     }
 
@@ -29,6 +28,7 @@ public class Train {
      * @param arrayList - passed form constructor used to build the this.passenger array list
      */
     private void addPassengers(ArrayList<Passenger> arrayList) {
+        this.passengers = new ArrayList<Passenger>();
         for(Passenger curPas : arrayList) {
             this.passengers.add(curPas);
         }

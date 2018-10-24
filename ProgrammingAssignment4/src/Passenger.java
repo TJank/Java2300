@@ -20,35 +20,11 @@ public class Passenger {
     }
 
     /**
-     * getNAME method
-     * @return this.name - returns the name of the current passenger
-     */
-    public String getName() {
-        return name;
-    }
-
-    /**
-     * setNAME
-     * @param name - sets a new name to the passenger object
-     */
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    /**
      * getCLASSSTATUS gets the class status
      * @return this.classStatus - returns current passenger class status
      */
     public int getClassStatus() {
         return classStatus;
-    }
-
-    /**
-     * setCLASSSTATUS - sets class status
-     * @param classStatus - int of the class status 1 or 2
-     */
-    public void setClassStatus(int classStatus) {
-        this.classStatus = classStatus;
     }
 
     @Override
