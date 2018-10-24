@@ -1,0 +1,6 @@
+spacesuit 200.0
+camera 3.0
+vitamins 0.5
+first_aid_kit 3.0
+battery 4.0
+charger 3.5

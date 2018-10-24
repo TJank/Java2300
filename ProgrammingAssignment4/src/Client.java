@@ -15,7 +15,7 @@ public class Client {
     public static void main(String[] args) throws IOException {
 
         // Creating temporary ArrayList of passengers to pass in to Train() constructor
-        File inputFile = new File("passengers.txt");
+        File inputFile = new File("src/passengers.txt");
         Scanner file = new Scanner(inputFile);
         ArrayList<Passenger> tempPassengers = new ArrayList<Passenger>();
         String n;
