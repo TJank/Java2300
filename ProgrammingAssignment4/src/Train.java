@@ -58,7 +58,6 @@ public class Train {
         int numOfPassengers = this.passengers.size();
         for(Passenger currentPassenger : this.passengers) {
             int currentPassStatus = currentPassenger.getClassStatus();
-            //numOfPassengers++;
             if (currentPassStatus == 1) {
                 firstClass++;
             }

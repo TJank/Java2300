@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b6706f3-6388-40db-9690-8f56e0b3a9ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment4/out/production/ProgrammingAssignment4/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment4/out/production/ProgrammingAssignment4/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment4/out/production/ProgrammingAssignment4/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment4/out/production/ProgrammingAssignment4/Train.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment4/passengers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment4/src/passengers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment4/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment4/src/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment4/src/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment4/src/Train.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Temperatures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Temperatures/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -189,7 +184,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540410419170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540410744173" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -233,12 +228,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540405400997</updated>
-      <workItem from="1540405405821" duration="3831000" />
+      <workItem from="1540405405821" duration="4051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3831000" />
+    <option name="totallyTimeSpent" value="4051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="735" y="23" width="945" height="947" extended-state="1" />
