@@ -5,50 +5,81 @@
  * Created: 11-07-18
  *
  */
+import java.io.Serializable;
 
-abstract class PropertyItem implements Logger {
+abstract class PropertyItem implements Serializable {
 
+    // variables
     private int numRooms;
     protected boolean occupied;
     protected boolean needsCleaning;
 
+    /**
+     * Default constuctor
+     */
     public PropertyItem() {
-        this.numRooms = 1;
-        this.occupied = false;
+        setNumRooms(1);
+        setOccupied(false);
     }
 
-    public PropertyItem(int numRooms, boolean available) {
+    /**
+     * Overloaded Constructor
+     * @param numRooms int acting as number of rooms
+     * @param occupied boolean if the property is occupied or not
+     */
+    public PropertyItem(int numRooms, boolean occupied) {
         setNumRooms(numRooms);
-        this.occupied = available;
+        setOccupied(occupied);
     }
 
+    /**
+     * Accessor Method
+     * @return int of number of rooms
+     */
     public int getNumRooms() {
         return numRooms;
     }
 
+    /**
+     * Mutator method
+     * @param numRooms
+     */
     public void setNumRooms(int numRooms) {
         if (numRooms > 0) {
             this.numRooms = numRooms;
         }
     }
 
-    public boolean isAvailable() {
+    /**
+     * Accessor Method
+     * @return
+     */
+    public boolean isOccupied() {
         return occupied;
     }
 
-    public void setAvailable(boolean available) {
+    /**
+     * Mutator method
+     * @param available boolean if the property item is available or not
+     */
+    public void setOccupied(boolean available) {
         this.occupied = available;
     }
 
+    /**
+     * toString()
+     * @return String containing all details about the property item
+     */
     @Override
     public String toString() {
-        return "PropertyItem{" +
-                "numRooms=" + numRooms +
-                ", occupied=" + occupied +
-                ", needsCleaning=" + needsCleaning +
-                '}';
+        return "numRooms = " + numRooms +
+                ", occupied = " + occupied +
+                ", needsCleaning = " + needsCleaning;
     }
 
+    /**
+     * Abstract method - implementation in child classes.
+     */
     public abstract void requestCleaning();
 
 }

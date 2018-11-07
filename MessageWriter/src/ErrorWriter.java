@@ -66,7 +66,7 @@ public class ErrorWriter extends MessageWriter {
     @Override
     public void writeMessage() {
         try {
-            FileOutputStream fileOutputStream = new FileOutputStream("errorLog");
+            FileOutputStream fileOutputStream = new FileOutputStream("errorLog",false);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
             objectOutputStream.writeObject(this);
             objectOutputStream.close();
