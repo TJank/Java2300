@@ -1,3 +1,11 @@
+/**
+ * House is an abstract class that
+ * encapsulates data acting as a house
+ * @author Tyler Jankowski
+ * Created: 11-07-18
+ *
+ */
+
 public class House extends PropertyItem {
 
     private int numBathrooms;

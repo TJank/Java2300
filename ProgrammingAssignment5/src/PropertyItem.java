@@ -1,4 +1,12 @@
-abstract class PropertyItem {
+/**
+ * ProperyItem is an abstract class that
+ * encapsulates data for a rental property item
+ * @author Tyler Jankowski
+ * Created: 11-07-18
+ *
+ */
+
+abstract class PropertyItem implements Logger {
 
     private int numRooms;
     protected boolean occupied;
@@ -34,8 +42,11 @@ abstract class PropertyItem {
 
     @Override
     public String toString() {
-        return "numRooms = " + numRooms +
-                ", occupied = " + occupied;
+        return "PropertyItem{" +
+                "numRooms=" + numRooms +
+                ", occupied=" + occupied +
+                ", needsCleaning=" + needsCleaning +
+                '}';
     }
 
     public abstract void requestCleaning();
