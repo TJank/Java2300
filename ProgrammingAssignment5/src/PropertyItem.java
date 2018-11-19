@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 abstract class PropertyItem implements Serializable {
 
-    // variables
+    // attributes
     private int numRooms;
     protected boolean occupied;
     protected boolean needsCleaning;

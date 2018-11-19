@@ -7,7 +7,7 @@ import java.io.*;
  *
  */
 
-public class Client implements Logger {
+public class Client {
 
     public static void main(String[] args) {
         // Init objects

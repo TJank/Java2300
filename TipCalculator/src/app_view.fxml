@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<VBox fx:controller="TipCalc_Controller" xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="5">
+
+    <Label text="Enter bill amount : " />
+    <TextField fx:id="billAmt" maxWidth="100" />
+
+
+    <Label text="Enter percent amount: " />
+    <TextField fx:id="tipPerc" maxWidth="50" />
+    <Button fx:id="multiply" text="Multiply" onAction="#calculate" />
+
+    <Label text="Tip amount: " />
+    <Label fx:id="tipAmt" />
+
+</VBox>

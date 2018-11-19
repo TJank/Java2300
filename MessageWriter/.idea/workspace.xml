@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="675c1640-db07-41ab-bec5-70931e7ff1eb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProgrammingAssignment5/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ErrorWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErrorWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment5/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment5/src/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment5/src/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment5/src/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment5/src/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProgrammingAssignment5/src/PropertyItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgrammingAssignment5/src/PropertyItem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +15,7 @@
     <session id="1535845916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -54,7 +46,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ErrorWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="529">
               <caret line="68" column="85" selection-start-line="68" selection-start-column="85" selection-end-line="68" selection-end-column="85" />
             </state>
           </provider>
@@ -107,7 +99,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="80" />
     <option name="y" value="21" />
     <option name="width" value="854" />
@@ -143,7 +135,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProgrammingAssignment5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -208,16 +200,15 @@
       <option name="presentableId" value="Default" />
       <updated>1541618541617</updated>
       <workItem from="1541618546696" duration="4941000" />
-      <workItem from="1541627386372" duration="2878000" />
+      <workItem from="1541627386372" duration="2888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7819000" />
+    <option name="totallyTimeSpent" value="7829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="21" width="854" height="1017" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24307305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -228,7 +219,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930845" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32842582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32842582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,7 +278,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ErrorWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="529">
           <caret line="68" column="85" selection-start-line="68" selection-start-column="85" selection-end-line="68" selection-end-column="85" />
         </state>
       </provider>

@@ -8,7 +8,7 @@
 
 public class House extends PropertyItem implements Logger {
 
-    // variable
+    // attribute
     private int numBathrooms;
 
     /**
